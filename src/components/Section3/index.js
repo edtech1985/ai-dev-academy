@@ -3,18 +3,18 @@ import {
   SectionContainer,
   Image,
   DivTextImg,
-  DivTextLeft,
-  DivImgRight,
+  DivLeft,
+  DivRight,
   Text1,
   TitleH3,
 } from "./Section3";
-import pastaImage from "../../assets/landingpage.jpg";
+import ImgFingers from "../../assets/ai-fingers.jpeg";
 
 const Section3 = () => {
   return (
-    <SectionContainer id="section3">
+    <SectionContainer id="matricula">
       <DivTextImg>
-        <DivTextLeft>
+        <DivLeft>
           <TitleH3>Faça sua matrícula.</TitleH3>
 
           <Text1>
@@ -22,11 +22,11 @@ const Section3 = () => {
             experimental, basta realizar sua matrícula e o pagamento através de
             um cartão de crédito.
           </Text1>
-        </DivTextLeft>
+        </DivLeft>
 
-        <DivImgRight>
-          <Image src={pastaImage} alt="Imagem de Pasta" />
-        </DivImgRight>
+        <DivRight>
+          <Image src={ImgFingers} alt="Imagem de Pasta" />
+        </DivRight>
       </DivTextImg>
     </SectionContainer>
   );

@@ -3,24 +3,24 @@ import {
   SectionContainer,
   Image,
   DivTextImg,
-  DivTextLeft,
-  DivImgRight,
+  DivLeft,
+  DivRight,
   Text1,
   TitleH3,
   Subtitle,
 } from "./Section6";
-import pastaImage from "../../assets/globo1.jpg";
+import ImgGlobe from "../../assets/globo1.jpg";
 import ContactButton from "../ContactButton";
 
 const Section6 = () => {
   return (
-    <SectionContainer id="section6">
+    <SectionContainer id="pilares">
       <Subtitle>
         Entenda como funcionam nossos 4 pilares para um resultado rápido e
         eficaz
       </Subtitle>
       <DivTextImg>
-        <DivTextLeft>
+        <DivLeft>
           <TitleH3>Liberdade</TitleH3>
           <Text1>
             Chega de perder tempo e dinheiro. Aqui você aprende em qualquer
@@ -41,11 +41,11 @@ const Section6 = () => {
             Aprenda com o mesmo professor particular. Só assim você garante um
             aprendizado com mais empatia e personalização.
           </Text1>
-        </DivTextLeft>
+        </DivLeft>
 
-        <DivImgRight>
-          <Image src={pastaImage} alt="Imagem de Pasta" />
-        </DivImgRight>
+        <DivRight>
+          <Image src={ImgGlobe} alt="Imagem de Pasta" />
+        </DivRight>
       </DivTextImg>
 
       <ContactButton></ContactButton>

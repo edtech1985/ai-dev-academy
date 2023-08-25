@@ -7,12 +7,12 @@ import {
   DivRight,
   Text1,
   TitleH3,
-} from "./Section7";
+} from "./Section8";
 import ImgTeacher from "../../assets/teacher.jpg";
 
-const Section7 = () => {
+const Section8 = () => {
   return (
-    <SectionContainer id="section7">
+    <SectionContainer id="section8">
       <DivTextImg>
         <DivRight>
           <Image
@@ -22,7 +22,7 @@ const Section7 = () => {
           />
         </DivRight>
         <DivLeft>
-          <TitleH3>SECTION 7</TitleH3>
+          <TitleH3>SECTION 8</TitleH3>
           <Text1>
             Com a sua inscrição confirmada, é o momento de selecionar o mentor
             que irá orientar você em sua jornada em direção à maestria. Cada
@@ -40,4 +40,4 @@ const Section7 = () => {
   );
 };
 
-export default Section7;
+export default Section8;

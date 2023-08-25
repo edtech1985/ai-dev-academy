@@ -18,6 +18,7 @@ export const SectionContainer = styled.section`
 
 export const BackgroundImg = styled.div`
   width: 100%;
+  max-width: 100vw;
 `;
 export const BannerImg = styled.img`
   width: 100%;
@@ -30,9 +31,9 @@ export const Title = styled.h1`
   padding: 1rem;
 `;
 
-export const DivTextImg = styled.div`
-  display: flex;
-  padding: 1rem;
+export const DivText = styled.div`
+  display: block;
+  padding: 2rem;
   align-items: center;
 
   @media (max-width: 480px) {

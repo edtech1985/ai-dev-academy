@@ -4,7 +4,6 @@ export const SectionContainer = styled.section`
   text-align: center;
   background-color: var(--background1);
   max-width: 100vw;
-  margin-top: 3rem;
   padding: 1.5rem 0;
 
   @media (max-width: 480px) {
@@ -34,7 +33,7 @@ export const DivTextImg = styled.div`
   }
 `;
 
-export const DivTextLeft = styled.div`
+export const DivLeft = styled.div`
   max-width: 100%;
 
   @media (min-width: 481px) and (max-width: 768px) {
@@ -80,7 +79,7 @@ export const Text1 = styled.p`
   }
 `;
 
-export const DivImgRight = styled.div`
+export const DivRight = styled.div`
   max-width: 100%;
   width: 200vw;
 

@@ -22,7 +22,7 @@ export const DivTextImg = styled.div`
   }
 `;
 
-export const DivTextLeft = styled.div`
+export const DivLeft = styled.div`
   max-width: 100%;
 
   @media (min-width: 481px) and (max-width: 768px) {
@@ -71,7 +71,7 @@ export const Text1 = styled.p`
   }
 `;
 
-export const DivImgRight = styled.div`
+export const DivRight = styled.div`
   max-width: 100%;
 
   @media (min-width: 481px) and (max-width: 768px) {

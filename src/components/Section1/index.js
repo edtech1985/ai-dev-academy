@@ -3,20 +3,20 @@ import {
   SectionContainer,
   Image,
   DivTextImg,
-  DivTextLeft,
-  DivImgRight,
+  DivLeft,
+  DivRight,
   Text1,
   Subtitle,
 } from "./Section1";
-import pastaImage from "../../assets/equipe.jpg";
+import ImgCyborgAI from "../../assets/ciborgAI.jpg";
 
-const Section1 = () => {
+function Section1() {
   return (
-    <SectionContainer id="section1">
+    <SectionContainer id="about">
       <Subtitle>Sobre a AI Dev Academy</Subtitle>
 
       <DivTextImg>
-        <DivTextLeft>
+        <DivLeft>
           <Text1>
             Na AI Dev Academy, estamos na vanguarda da revolução educacional.
             Estamos redefinindo a maneira como a inteligência artificial e a
@@ -30,14 +30,14 @@ const Section1 = () => {
             experiência educacional moldada por você e aprimorada pela
             inteligência artificial.
           </Text1>
-        </DivTextLeft>
+        </DivLeft>
 
-        <DivImgRight>
-          <Image src={pastaImage} alt="Imagem de Pasta" />
-        </DivImgRight>
+        <DivRight>
+          <Image src={ImgCyborgAI} alt="Imagem de Pasta" />
+        </DivRight>
       </DivTextImg>
     </SectionContainer>
   );
-};
+}
 
 export default Section1;

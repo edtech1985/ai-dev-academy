@@ -3,22 +3,25 @@ import {
   SectionContainer,
   Image,
   DivTextImg,
-  DivTextLeft,
-  DivImgRight,
+  DivLeft,
+  DivRight,
   Text1,
   TitleH3,
 } from "./Section4";
-import pastaImage from "../../assets/globo2.jpg";
-import ContactButton from "../../components/ContactButton";
+import ImgTeacher from "../../assets/teacher.jpg";
 
 const Section4 = () => {
   return (
     <SectionContainer id="section4">
       <DivTextImg>
-        <DivImgRight>
-          <Image src={pastaImage} alt="Imagem de Pasta" />
-        </DivImgRight>
-        <DivTextLeft>
+        <DivRight>
+          <Image
+            src={ImgTeacher}
+            alt="Professor AI"
+            aria-label="Professor AI"
+          />
+        </DivRight>
+        <DivLeft>
           <TitleH3>Escolha o seu professor.</TitleH3>
           <Text1>
             Com a sua inscrição confirmada, é o momento de selecionar o mentor
@@ -31,7 +34,7 @@ const Section4 = () => {
             Ah, mas caso você não se adapte ao professor, não tem problemas,
             basta solicitar a troca, ok? Sua satisfação é nossa prioridade!
           </Text1>
-        </DivTextLeft>
+        </DivLeft>
       </DivTextImg>
     </SectionContainer>
   );

@@ -3,20 +3,20 @@ import {
   SectionContainer,
   Image,
   DivTextImg,
-  DivTextLeft,
-  DivImgRight,
+  DivLeft,
+  DivRight,
   Text1,
   TitleH3,
   Subtitle,
 } from "./Section5";
-import pastaImage from "../../assets/globo1.jpg";
+import ImgStudents from "../../assets/2-students.jpg";
 import ContactButton from "../ContactButton";
 
 const Section5 = () => {
   return (
-    <SectionContainer id="section5">
+    <SectionContainer id="primeira-aula">
       <DivTextImg>
-        <DivTextLeft>
+        <DivLeft>
           <TitleH3>Inicie sua primeira aula.</TitleH3>
 
           <Text1>
@@ -27,11 +27,11 @@ const Section5 = () => {
             quem determina os dias e horários que melhor se encaixam na sua
             rotina. Incrível, não é mesmo?
           </Text1>
-        </DivTextLeft>
+        </DivLeft>
 
-        <DivImgRight>
-          <Image src={pastaImage} alt="Imagem de Pasta" />
-        </DivImgRight>
+        <DivRight>
+          <Image src={ImgStudents} alt="Estudantes" aria-label="Estudantes" />
+        </DivRight>
       </DivTextImg>
       <Subtitle>
         Todas nossas aulas são 100% online, através de seu smartphone, tablet ou
