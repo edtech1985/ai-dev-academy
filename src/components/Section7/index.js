@@ -7,6 +7,7 @@ import {
   DivRight,
   Text1,
   TitleH3,
+  SnakeCard,
 } from "./Section7";
 import ImgTeacher from "../../assets/teacher.jpg";
 
@@ -15,11 +16,18 @@ const Section7 = () => {
     <SectionContainer id="section7">
       <DivTextImg>
         <DivRight>
-          <Image
-            src={ImgTeacher}
-            alt="Professor AI"
-            aria-label="Professor AI"
-          />
+          <SnakeCard>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <Image
+              src={ImgTeacher}
+              alt="Professor AI"
+              aria-label="Professor AI"
+            />
+          </SnakeCard>
         </DivRight>
         <DivLeft>
           <TitleH3>SECTION 7</TitleH3>

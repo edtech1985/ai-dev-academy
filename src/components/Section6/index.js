@@ -8,9 +8,11 @@ import {
   Text1,
   TitleH3,
   Subtitle,
+  DivContent,
 } from "./Section6";
-import ImgGlobe from "../../assets/globo1.jpg";
+import ImgGlobe from "../../assets/face-ai.jpg";
 import ContactButton from "../ContactButton";
+import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
 const Section6 = () => {
   return (
@@ -43,9 +45,15 @@ const Section6 = () => {
           </Text1>
         </DivLeft>
 
-        <DivRight>
-          <Image src={ImgGlobe} alt="Imagem de Pasta" />
-        </DivRight>
+        <SnakeCard>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <DivRight>
+            <Image src={ImgGlobe} alt="Imagem de Pasta" />
+          </DivRight>
+        </SnakeCard>
       </DivTextImg>
 
       <ContactButton></ContactButton>

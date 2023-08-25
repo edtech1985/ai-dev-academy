@@ -11,6 +11,7 @@ import {
 } from "./Section5";
 import ImgStudents from "../../assets/2-students.jpg";
 import ContactButton from "../ContactButton";
+import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
 const Section5 = () => {
   return (
@@ -29,9 +30,16 @@ const Section5 = () => {
           </Text1>
         </DivLeft>
 
-        <DivRight>
-          <Image src={ImgStudents} alt="Estudantes" aria-label="Estudantes" />
-        </DivRight>
+        <SnakeCard>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <DivRight>
+            <Image src={ImgStudents} alt="Estudantes" aria-label="Estudantes" />
+          </DivRight>
+        </SnakeCard>
       </DivTextImg>
       <Subtitle>
         Todas nossas aulas são 100% online, através de seu smartphone, tablet ou

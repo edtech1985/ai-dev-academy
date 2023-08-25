@@ -9,18 +9,27 @@ import {
   TitleH3,
 } from "./Section4";
 import ImgTeacher from "../../assets/teacher.jpg";
+import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
 const Section4 = () => {
   return (
     <SectionContainer id="section4">
       <DivTextImg>
-        <DivRight>
-          <Image
-            src={ImgTeacher}
-            alt="Professor AI"
-            aria-label="Professor AI"
-          />
-        </DivRight>
+        <SnakeCard>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <DivRight>
+            <Image
+              src={ImgTeacher}
+              alt="Professor AI"
+              aria-label="Professor AI"
+            />
+          </DivRight>
+        </SnakeCard>
+
         <DivLeft>
           <TitleH3>Escolha o seu professor.</TitleH3>
           <Text1>

@@ -7,6 +7,11 @@ export const SectionContainer = styled.section`
   max-width: 100vw;
 `;
 
+export const DivContent = styled.div`
+  height: 50vh;
+  overflow: hidden; /* Impede que o conteúdo vaze e corte a imagem */
+`;
+
 export const DivTextImg = styled.div`
   display: flex;
   padding: 1rem;

@@ -17,6 +17,7 @@ export const FooterContainer = styled.footer`
 
 export const DivFooter = styled.div`
   padding: 1rem;
+  margin: 1rem 2rem;
 `;
 
 export const Text1 = styled.p`
@@ -48,7 +49,7 @@ export const SocialIcons = styled.div`
     text-decoration: none;
 
     &:hover {
-      color: var(--second-color);
+      color: var(--third-color);
     }
   }
 `;
@@ -89,7 +90,7 @@ export const Copyright = styled.p`
     text-decoration: none;
 
     &:hover {
-      color: var(--second-color);
+      color: var(--third-color);
     }
   }
 `;

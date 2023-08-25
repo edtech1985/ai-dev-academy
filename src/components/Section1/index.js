@@ -7,6 +7,7 @@ import {
   DivRight,
   Text1,
   Subtitle,
+  SnakeCard,
 } from "./Section1";
 import ImgCyborgAI from "../../assets/ciborgAI.jpg";
 
@@ -31,10 +32,15 @@ function Section1() {
             inteligência artificial.
           </Text1>
         </DivLeft>
-
-        <DivRight>
-          <Image src={ImgCyborgAI} alt="Imagem de Pasta" />
-        </DivRight>
+        <SnakeCard>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <DivRight>
+            <Image src={ImgCyborgAI} alt="Imagem de Pasta" />
+          </DivRight>
+        </SnakeCard>
       </DivTextImg>
     </SectionContainer>
   );

@@ -26,16 +26,16 @@ const Header = () => {
             <NavLink href="#about">Sobre Nós</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#section2">Cursos</NavLink>
+            <NavLink href="#matricula">Matrícula</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#section3">Professores</NavLink>
+            <NavLink href="#pilares">Pilares</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#section4">Contato</NavLink>
+            <NavLink href="#cta-form">Agende</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#section5">Footer</NavLink>
+            <NavLink href="#footer">Contatos</NavLink>
           </NavItem>
         </NavList>
       </nav>

@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   --background3: #F2F2F2;
   --background4: #3F2B5C;
   --background5: #025373;
-  --primary-color: #B999DF;
+  --primary-color: yellow;
   --second-color: #011526;
   --third-color: #13F2F2;
   --fourth-color: #13F2F2;

@@ -13,6 +13,14 @@ export const FormBox = styled.div`
   background: var(--background1);
   padding: 2rem 2rem;
   border-radius: 1.5rem;
+  transition: background-color 1s ease-in-out, 1s ease-out;
+  border: 2px solid transparent;
+
+  &:hover {
+    background-color: var(--background1);
+    border: 2px solid var(--second-color);
+    box-shadow: 0px 0px 10px 10px var(--third-color);
+  }
 `;
 
 export const FormTitle = styled.h2`
@@ -71,7 +79,7 @@ export const CtaButton = styled.button`
 `;
 
 export const Modal = styled.div`
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0;
   left: 0;
@@ -84,6 +92,14 @@ export const Modal = styled.div`
 
 export const ModalContent = styled.div`
   background-color: white;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
+  width: 60vw;
+  height: 50vh;
+`;
+
+export const DivCenterModal = styled.div`
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 `;

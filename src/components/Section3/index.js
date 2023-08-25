@@ -9,6 +9,7 @@ import {
   TitleH3,
 } from "./Section3";
 import ImgFingers from "../../assets/ai-fingers.jpeg";
+import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
 const Section3 = () => {
   return (
@@ -24,9 +25,16 @@ const Section3 = () => {
           </Text1>
         </DivLeft>
 
-        <DivRight>
-          <Image src={ImgFingers} alt="Imagem de Pasta" />
-        </DivRight>
+        <SnakeCard>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <DivRight>
+            <Image src={ImgFingers} alt="Dedos Tocando" />
+          </DivRight>
+        </SnakeCard>
       </DivTextImg>
     </SectionContainer>
   );
