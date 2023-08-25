@@ -8,7 +8,6 @@ import {
   Text1,
   TitleH3,
   Subtitle,
-  DivContent,
 } from "./Section6";
 import ImgGlobe from "../../assets/face-ai.jpg";
 import ContactButton from "../ContactButton";
@@ -56,7 +55,12 @@ const Section6 = () => {
         </SnakeCard>
       </DivTextImg>
 
-      <ContactButton></ContactButton>
+      <ContactButton
+        link="#cta-form"
+        text="Quero começar agora!"
+        alt="Começar Agora"
+        aria-label="Quero Começar Agora!"
+      />
     </SectionContainer>
   );
 };

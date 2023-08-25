@@ -3,28 +3,38 @@ import banner from "../../assets/face-ai.jpg";
 
 export const SectionContainer = styled.section`
   text-align: center;
-  background-color: var(--background2);
+  background: var(--background2);
   color: var(--text1);
   max-width: 100vw;
-  margin-top: 3rem;
+  padding-top: 3rem;
 
   @media (max-width: 480px) {
   }
 
-  @media (min-width: 481px) and (max-width: 768px) {
-    /* margin-top: 3rem; */
+  @media (min-width: 481px) and (max-width: 600px) {
   }
-`;
 
-// export const BackgroundImg = styled.div`;
-//   width: 100%;
-//   max-width: 100vw;
-// `;
+  @media (min-width: 601px) and (max-width: 768px) {
+  }
+
+  @media (min-width: 769px) and (max-width: 991px) {
+  }
+
+  @media (min-width: 992px) and (max-width: 1024px) {
+  }
+
+  @media (min-width: 1025px) and (max-width: 1200px) {
+  }
+
+  @media (min-width: 1201px) {
+  }
+  /* margin-top: 3rem; */
+`;
 
 export const BackgroundImg = styled.div`
   width: 100%;
   max-width: 100vw;
-  height: 100vh;
+  max-height: 100vh;
   background-image: url(${banner});
   background-size: cover; /* Garante que a imagem cubra todo o espaço */
   background-position: center; /* Centraliza a imagem */
@@ -34,11 +44,9 @@ export const BannerImg = styled.img`
   width: 100%;
 `;
 
-// old
-
 export const DivText = styled.div`
   display: flex;
-  justify-content: space-between; /* Isso alinha os elementos à esquerda e à direita */
+  justify-content: space-between;
   padding: 2rem;
 
   @media (max-width: 480px) {

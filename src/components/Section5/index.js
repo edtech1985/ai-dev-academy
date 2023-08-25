@@ -45,7 +45,11 @@ const Section5 = () => {
         Todas nossas aulas são 100% online, através de seu smartphone, tablet ou
         computador, e a duração do curso vai depender do seu progresso.
       </Subtitle>
-      <ContactButton></ContactButton>
+      <ContactButton
+        text="Falar com um Consultor"
+        link="https://wa.me/5551992002595?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso
+      "
+      />
     </SectionContainer>
   );
 };

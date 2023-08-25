@@ -3,12 +3,8 @@ import {
   SectionContainer,
   Title,
   BackgroundImg,
-  BannerImg,
   Text1,
   DivText,
-  DivBgLeft,
-  DivBgRight,
-  DivImgRight,
   DivTextRight,
   DivTextLeft,
 } from "./Banner";
@@ -18,9 +14,15 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Banner = () => {
   const [typeEffect] = useTypewriter({
-    words: ["Bem-vindo à AI Dev Academy - O Futuro da Educação!"],
+    words: [
+      "Bem-vindo à AI Dev Academy - O Futuro da Educação!",
+      "Chegou a nova geração de ensino com IA",
+      "Ensino 100% personalizado",
+      "Inteligência Artificial Algoritimica Ultra-Quântica",
+      "Aula EAD e presenciais no Multiverso",
+    ],
     loop: true,
-    typeSpeed: 100,
+    typeSpeed: 50,
     deleteSpeed: 30,
   });
 
@@ -28,7 +30,8 @@ const Banner = () => {
     <SectionContainer id="home">
       <BackgroundImg>
         <Title>
-          AI Dev! {typeEffect} <Cursor />
+          {typeEffect}
+          <Cursor />
         </Title>
         {/* <BannerImg
           src={banner}
@@ -62,8 +65,12 @@ const Banner = () => {
             </Text1>
           </DivTextRight>
         </DivText>
-
-        <ContactButton />
+        <ContactButton
+          link="#cta-form"
+          text="Agendar aula gratuita!"
+          alt="Agendar Aula gratuita"
+          aria-label="Agendar aula gratuita"
+        />
       </BackgroundImg>
     </SectionContainer>
   );
