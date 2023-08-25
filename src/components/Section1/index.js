@@ -7,9 +7,9 @@ import {
   DivRight,
   Text1,
   Subtitle,
-  SnakeCard,
 } from "./Section1";
 import ImgCyborgAI from "../../assets/ciborgAI.jpg";
+import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
 function Section1() {
   return (
