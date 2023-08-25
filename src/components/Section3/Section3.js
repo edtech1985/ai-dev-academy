@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const SectionContainer = styled.section`
-  padding: 2rem 0;
   text-align: center;
   background-color: F2F2F2;
   color: var(--text3);

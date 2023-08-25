@@ -39,6 +39,27 @@ export const FormContainer = styled.form`
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 481px) and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 601px) and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 769px) and (max-width: 991px) {
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+  }
+  @media (min-width: 1201px) {
+  }
 `;
 
 export const InputGroup = styled.div`
@@ -46,8 +67,8 @@ export const InputGroup = styled.div`
   margin: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   color: var(--text1);
+  align-items: center;
 
   label {
     margin: 0.5rem;
@@ -58,6 +79,25 @@ export const InputGroup = styled.div`
     padding: 0.75rem;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
+
+    @media (max-width: 480px) {
+      width: 50vw;
+    }
+    @media (min-width: 481px) and (max-width: 600px) {
+      width: 50vw;
+    }
+    @media (min-width: 601px) and (max-width: 768px) {
+      width: 50vw;
+    }
+    @media (min-width: 769px) and (max-width: 991px) {
+      width: 50vw;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+    }
+    @media (min-width: 1025px) and (max-width: 1200px) {
+    }
+    @media (min-width: 1201px) {
+    }
   }
 `;
 
@@ -65,7 +105,6 @@ export const CtaButton = styled.button`
   background-color: var(--background2);
   color: white;
   padding: 0.75rem 1rem;
-  border: none;
   border-radius: 10px;
   border: 1px solid var(--primary-color);
   cursor: pointer;
@@ -75,6 +114,16 @@ export const CtaButton = styled.button`
 
   &:hover {
     background: var(--background5);
+  }
+
+  @media (max-width: 480px) {
+    align-self: center;
+  }
+  @media (min-width: 481px) and (max-width: 600px) {
+    align-self: center;
+  }
+  @media (min-width: 601px) and (max-width: 768px) {
+    align-self: center;
   }
 `;
 
