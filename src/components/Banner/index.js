@@ -30,14 +30,9 @@ const Banner = () => {
     <SectionContainer id="home">
       <BackgroundImg>
         <Title>
-          {/* {typeEffect}
-          <Cursor /> */}
+          {typeEffect}
+          <Cursor />
         </Title>
-        {/* <BannerImg
-          src={banner}
-          alt="Banner AI Dev Academy"
-          aria-label="Banner AI Dev Academy"
-        /> */}
 
         <DivText>
           <DivTextLeft />
