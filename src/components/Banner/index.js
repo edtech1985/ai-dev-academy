@@ -30,8 +30,8 @@ const Banner = () => {
     <SectionContainer id="home">
       <BackgroundImg>
         <Title>
-          {typeEffect}
-          <Cursor />
+          {/* {typeEffect}
+          <Cursor /> */}
         </Title>
         {/* <BannerImg
           src={banner}
