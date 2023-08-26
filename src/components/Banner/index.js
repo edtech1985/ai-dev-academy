@@ -60,12 +60,6 @@ const Banner = () => {
             </Text1>
           </DivTextRight>
         </DivText>
-        <ContactButton
-          link="#cta-form"
-          text="Agendar aula gratuita!"
-          alt="Agendar Aula gratuita"
-          aria-label="Agendar aula gratuita"
-        />
       </BackgroundImg>
     </SectionContainer>
   );

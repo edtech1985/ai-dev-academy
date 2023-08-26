@@ -4,7 +4,7 @@ export const SectionContainer = styled.section`
   text-align: center;
   background-color: var(--background1);
   max-width: 100vw;
-  padding: 2rem 0;
+  padding: 1rem 0;
 
   @media (max-width: 480px) {
   }

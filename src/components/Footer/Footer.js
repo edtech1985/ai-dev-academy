@@ -10,14 +10,14 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export const FooterContainer = styled.footer`
   background-color: var(--background2);
-  color: #f2f2f2;
+  color: var(--text1);
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 `;
 
 export const DivFooter = styled.div`
   padding: 1rem;
-  margin: 1rem 2rem;
+  margin: 0 2rem;
 `;
 
 export const Text1 = styled.p`

@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Liberdade",
+        "descricao": "Chega de perder tempo e dinheiro. Aqui você aprende em qualquer lugar, pelo smartphone, computador ou tablet.",
+        "icone": "fa fa-globe"
+    },
+    {
+        "titulo": "Flexibilidade",
+        "descricao": "No seu tempo! Aulas com horários flexíveis, para que você possa fazer ajustes de acordo com a sua disponibilidade.",
+        "icone": "fa fa-clock"
+    },
+    {
+        "titulo": "Prática",
+        "descricao": "4 aulas semanais, em que você aprende conteúdo novo, exercita e tira dúvidas.",
+        "icone": "fa fa-laptop"
+    },
+    {
+        "titulo": "Proximidade",
+        "descricao": "Aprenda com o mesmo professor particular. Só assim você garante um aprendizado com mais empatia e personalização.",
+        "icone": "fa fa-handshake"
+    }
+]

@@ -9,25 +9,14 @@ import {
   TitleH3,
   SnakeCard,
 } from "./Section7";
-import ImgTeacher from "../../assets/teacher.jpg";
+import YouTubeVideo from "./YouTubeVideo";
 
 const Section7 = () => {
   return (
     <SectionContainer id="section7">
       <DivTextImg>
         <DivRight>
-          <SnakeCard>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-
-            <Image
-              src={ImgTeacher}
-              alt="Professor AI"
-              aria-label="Professor AI"
-            />
-          </SnakeCard>
+          <YouTubeVideo />
         </DivRight>
         <DivLeft>
           <TitleH3>SECTION 7</TitleH3>

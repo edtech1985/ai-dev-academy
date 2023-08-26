@@ -11,7 +11,6 @@ import {
   Modal,
   ModalContent,
 } from "./Form";
-import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -91,19 +90,15 @@ const Form = () => {
         {isModalOpen && (
           <Modal>
             <ModalContent>
-              <SnakeCard>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <DivCenterModal>
-                  <p>Confirme seus dados antes de prosseguir:</p>
-                  <p>Nome: {name}</p>
-                  <p>Email: {email}</p>
-                  <p>WhatsApp: {whatsapp}</p>
-                  <button onClick={handleConfirm}>Confirmar</button>
-                </DivCenterModal>
-              </SnakeCard>
+              <DivCenterModal>
+                <p>Confirme seus dados antes de prosseguir:</p>
+                <br />
+                <p>Nome: {name}</p>
+                <p>Email: {email}</p>
+                <p>WhatsApp: {whatsapp}</p>
+                <br />
+                <CtaButton onClick={handleConfirm}>Confirmar </CtaButton>{" "}
+              </DivCenterModal>
             </ModalContent>
           </Modal>
         )}

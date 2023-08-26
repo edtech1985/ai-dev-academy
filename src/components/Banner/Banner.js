@@ -141,22 +141,22 @@ export const DivTextRight = styled.div`
 export const Title = styled.h1`
   font-size: 2rem;
   padding: 1rem;
-  min-height: 13vh;
+  min-height: 14vh;
 
   @media (max-width: 480px) {
     font-size: 1.25rem;
-    min-height: 8vh;
+    min-height: 13vh;
   }
   @media (min-width: 481px) and (max-width: 768px) {
     font-size: 1.5rem;
-    min-height: 10vh;
+    min-height: 11vh;
   }
 
   @media (min-width: 769px) and (max-width: 900px) {
-    min-height: 12vh;
+    min-height: 14vh;
   }
   @media (min-width: 901px) and (max-width: 1024px) {
-    min-height: 13vh;
+    min-height: 14vh;
   }
   @media (min-width: 1025px) and (max-width: 1200px) {
     min-height: 12vh;
@@ -172,6 +172,7 @@ export const Text1 = styled.p`
   //new
 
   @media (max-width: 480px) {
+    font-size: 0.9rem;
     padding: 0.25rem;
     background-color: rgba(1, 21, 38, 0.75);
   }

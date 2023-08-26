@@ -21,12 +21,12 @@ const Section5 = () => {
           <TitleH3>Inicie sua primeira aula.</TitleH3>
 
           <Text1>
-            Tudo pronto! Agora, resta apenas embarcar na sua primeira aula e dar
-            início a uma verdadeira jornada de aprendizado do inglês na escola
-            que adota a abordagem correta! As sessões ocorrem quatro vezes por
-            semana, cada uma com duração de 30 minutos. A melhor parte? Você é
-            quem determina os dias e horários que melhor se encaixam na sua
-            rotina. Incrível, não é mesmo?
+            Tudo pronto! Agora, resta escolher uma stack, embarcar na sua
+            primeira aula e dar início a uma verdadeira jornada de aprendizado
+            academia que adota a abordagem mais inovadora do mercado! As sessões
+            ocorrem conforme a disponibilidade do aluno. Você é quem determina
+            os dias e horários que melhor se encaixam na sua rotina. Incrível,
+            não é mesmo?
           </Text1>
         </DivLeft>
 

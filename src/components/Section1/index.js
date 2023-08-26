@@ -10,10 +10,17 @@ import {
 } from "./Section1";
 import ImgCyborgAI from "../../assets/ciborgAI.jpg";
 import { SnakeCard } from "../SnakeCard/SnakeAnimation";
+import ContactButton from "../ContactButton";
 
 function Section1() {
   return (
     <SectionContainer id="about">
+      <ContactButton
+        link="#cta-form"
+        text="Agendar aula gratuita!"
+        alt="Agendar Aula gratuita"
+        aria-label="Agendar aula gratuita"
+      />
       <Subtitle>Sobre a AI Dev Academy</Subtitle>
 
       <DivTextImg>

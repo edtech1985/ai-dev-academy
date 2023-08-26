@@ -1,24 +1,24 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const FormSection = styled.section`
   background-color: var(--background2);
   text-align: center;
   width: 100%;
   max-width: 100vw;
-  padding: 2rem 2rem;
+  padding: 2rem 2rem 1rem;
   box-sizing: border-box;
 `;
 
 export const FormBox = styled.div`
   background: var(--background1);
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 1.5rem;
   transition: background-color 1s ease-in-out, 1s ease-out;
-  border: 2px solid transparent;
+  border: 5px solid transparent;
 
   &:hover {
     background-color: var(--background1);
-    border: 2px solid var(--second-color);
+    border: 5px solid var(--second-color);
     box-shadow: 0px 0px 10px 10px var(--third-color);
   }
 `;
@@ -26,12 +26,12 @@ export const FormBox = styled.div`
 export const FormTitle = styled.h2`
   color: var(--text1);
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 `;
 
 export const FormSubtitle = styled.h3`
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 
 export const FormContainer = styled.form`
@@ -90,7 +90,6 @@ export const InputGroup = styled.div`
       width: 50vw;
     }
     @media (min-width: 769px) and (max-width: 991px) {
-      width: 50vw;
     }
     @media (min-width: 992px) and (max-width: 1024px) {
     }
@@ -137,14 +136,29 @@ export const Modal = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+`;
+
+const pulsate = keyframes`
+  0%, 100% {
+    border-color: var(--primary-color);
+  }
+  50% {
+    border-color: var(--third-color);
+  }
 `;
 
 export const ModalContent = styled.div`
   background-color: white;
   padding: 3rem;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 60vw;
   height: 50vh;
+  margin: 0 auto;
+  border: 10px solid;
+  border-color: var(--fourth-color); /* Efeito luminoso no hover */
+  animation: ${pulsate} 1.5s infinite; /* Aplicando a animação de pulsar */
 `;
 
 export const DivCenterModal = styled.div`
