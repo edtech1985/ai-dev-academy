@@ -11,12 +11,12 @@
     },
     {
         "titulo": "Prática",
-        "descricao": "4 aulas semanais, em que você aprende conteúdo novo, exercita e tira dúvidas.",
+        "descricao": "Aulas práticas, com problemas reais cotidianos na vida de um DEV, você aprende conteúdo novo, exercita e tira dúvidas.",
         "icone": "fa fa-laptop"
     },
     {
         "titulo": "Proximidade",
-        "descricao": "Aprenda com o mesmo professor particular. Só assim você garante um aprendizado com mais empatia e personalização.",
+        "descricao": "Escolha o seu próprio professor particular. Assim você garante um aprendizado com mais empatia e personalização.",
         "icone": "fa fa-handshake"
     }
 ]

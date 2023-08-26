@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const StyledContactButton = styled.a`
   display: inline-block;
+  position: relative;
   background-color: green;
   color: #fff;
   padding: 1rem 2rem;
+  margin: 1rem;
   border-radius: 2rem;
+  border: 2px solid transparent;
   text-decoration: none;
   font-weight: bold;
-  margin: 1rem;
   cursor: pointer;
   transition: background-color 1s ease-in-out, 1s ease-out;
-  border: 2px solid transparent;
-  position: relative; /* Adicione essa linha para posicionar o conteúdo do botão */
 
   &:before {
     content: "";

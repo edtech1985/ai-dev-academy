@@ -14,10 +14,14 @@ export const DivTextImg = styled.div`
 
   @media (max-width: 480px) {
     display: block;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   @media (min-width: 481px) and (max-width: 768px) {
     display: block;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 `;
 export const DivLeft = styled.div`

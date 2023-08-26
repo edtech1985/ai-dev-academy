@@ -14,6 +14,7 @@ import {
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import SubmitButton from "./SubmitButton";
 
 const Form = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -32,8 +33,11 @@ const Form = () => {
 
   const handleConfirm = () => {
     console.log("Dados do formulário enviados para o console log:", formData);
-    setModalOpen(false);
+
     toast.success("Formulário enviado com sucesso!");
+    setTimeout(() => {
+      setModalOpen(false);
+    }, 3000);
   };
 
   const handleInputChange = (e) => {
@@ -97,7 +101,10 @@ const Form = () => {
                 <p>Email: {email}</p>
                 <p>WhatsApp: {whatsapp}</p>
                 <br />
-                <CtaButton onClick={handleConfirm}>Confirmar </CtaButton>{" "}
+
+                <SubmitButton onClick={handleConfirm}>Confirmar</SubmitButton>
+
+                {/* <CtaButton onClick={handleConfirm}>Confirmar </CtaButton>{" "} */}
               </DivCenterModal>
             </ModalContent>
           </Modal>

@@ -1,7 +1,6 @@
 import React from "react";
 import { SectionContainer, DivTextImg, Subtitle } from "./Section6";
 import ContactButton from "../ContactButton";
-import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 import Pilares from "./Pilares";
 
 const Section6 = () => {

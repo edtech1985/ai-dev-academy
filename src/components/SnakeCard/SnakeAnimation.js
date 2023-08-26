@@ -18,7 +18,7 @@ export const SnakeCard = styled.div`
       left: 0;
       width: 100%;
       height: 3px;
-      background: linear-gradient(to right, transparent, var(--second-color));
+      background: linear-gradient(to right, transparent, var(--primary-color));
       animation: animate1 2s linear infinite;
     }
 
@@ -28,7 +28,7 @@ export const SnakeCard = styled.div`
       right: 0;
       width: 3px;
       height: 100%;
-      background: linear-gradient(to bottom, transparent, var(--second-color));
+      background: linear-gradient(to bottom, transparent, var(--primary-color));
       animation: animate2 2s linear infinite;
       animation-delay: 1s;
     }
@@ -39,7 +39,7 @@ export const SnakeCard = styled.div`
       right: 0;
       width: 100%;
       height: 3px;
-      background: linear-gradient(to left, transparent, var(--second-color));
+      background: linear-gradient(to left, transparent, var(--primary-color));
       animation: animate3 2s linear infinite;
     }
 
@@ -49,7 +49,7 @@ export const SnakeCard = styled.div`
       left: 0;
       width: 3px;
       height: 100%;
-      background: linear-gradient(to top, transparent, var(--second-color));
+      background: linear-gradient(to top, transparent, var(--primary-color));
       animation: animate4 2s linear infinite;
       animation-delay: 1s;
     }

@@ -26,8 +26,11 @@ const PilarCard = styled.div`
   align-items: center;
   border-radius: 10px;
   border: 2px solid var(--text1);
-  box-shadow: ;
   padding: 1rem;
+
+  &:hover {
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+  }
 `;
 
 const PilarContent = styled.div`
@@ -65,6 +68,10 @@ const Icon = styled.i`
   font-size: 48px;
   color: var(--text1);
   padding: 1rem;
+
+  ${PilarCard}:hover & {
+    color: var(--text3);
+  }
 `;
 
 const Pilares = () => {

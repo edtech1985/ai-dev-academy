@@ -6,6 +6,13 @@ export const SectionContainer = styled.section`
   background-color: F2F2F2;
   color: var(--text2);
   max-width: 100vw;
+
+  @media (max-width: 480px) {
+    padding-bottom: 0;
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    padding-bottom: 0;
+  }
 `;
 
 export const Subtitle = styled.h2`

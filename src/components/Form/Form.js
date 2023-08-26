@@ -157,8 +157,9 @@ export const ModalContent = styled.div`
   height: 50vh;
   margin: 0 auto;
   border: 10px solid;
-  border-color: var(--fourth-color); /* Efeito luminoso no hover */
-  animation: ${pulsate} 1.5s infinite; /* Aplicando a animação de pulsar */
+  border-color: var(--fourth-color);
+  animation: ${pulsate} 1.5s infinite;
+  box-sizing: content-box;
 `;
 
 export const DivCenterModal = styled.div`

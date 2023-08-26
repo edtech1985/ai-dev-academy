@@ -8,9 +8,9 @@ import {
   Text1,
   Subtitle,
 } from "./Section1";
-import ImgCyborgAI from "../../assets/ciborgAI.jpg";
 import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 import ContactButton from "../ContactButton";
+import YouTubeVideo from "./YouTubeVideo";
 
 function Section1() {
   return (
@@ -45,7 +45,7 @@ function Section1() {
           <span></span>
           <span></span>
           <DivRight>
-            <Image src={ImgCyborgAI} alt="Imagem de Pasta" />
+            <YouTubeVideo />
           </DivRight>
         </SnakeCard>
       </DivTextImg>

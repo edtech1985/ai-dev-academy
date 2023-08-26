@@ -1,13 +1,11 @@
 import React from "react";
 import {
   SectionContainer,
-  Image,
   DivTextImg,
   DivLeft,
   DivRight,
   Text1,
   TitleH3,
-  SnakeCard,
 } from "./Section7";
 import YouTubeVideo from "./YouTubeVideo";
 

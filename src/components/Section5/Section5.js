@@ -27,12 +27,15 @@ export const DivLeft = styled.div`
 
   @media (max-width: 480px) {
     max-width: 100%;
+    padding-top: 0;
   }
   @media (min-width: 481px) and (max-width: 600px) {
     max-width: 100%;
+    padding-top: 0;
   }
   @media (min-width: 601px) and (max-width: 768px) {
     max-width: 100%;
+    padding-top: 0;
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
