@@ -18,7 +18,7 @@ const Banner = () => {
       "Chegou a nova geração de ensino com IA",
       "Ensino 100% personalizado",
       "Inteligência Artificial Algoritimica Ultra-Quântica",
-      "Aula EAD e presenciais no Multiverso",
+      "Aulas EAD e presenciais no Multiverso",
     ],
     loop: true,
     typeSpeed: 50,

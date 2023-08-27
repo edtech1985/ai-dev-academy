@@ -5,11 +5,6 @@ export const SectionContainer = styled.section`
   background-color: var(--background1);
   max-width: 100vw;
   padding: 1rem 0;
-
-  @media (max-width: 480px) {
-  }
-  @media (min-width: 481px) and (max-width: 768px) {
-  }
 `;
 
 export const DivTextImg = styled.div`
@@ -17,12 +12,7 @@ export const DivTextImg = styled.div`
   padding: 2rem;
   align-items: center;
 
-  @media (max-width: 480px) {
-    display: block;
-    padding: 1rem;
-  }
-
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     display: block;
     padding: 1rem;
   }
@@ -32,21 +22,8 @@ export const DivLeft = styled.div`
   max-width: 50%;
   padding: 1rem;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     max-width: 100%;
-  }
-  @media (min-width: 481px) and (max-width: 600px) {
-    max-width: 100%;
-  }
-  @media (min-width: 601px) and (max-width: 768px) {
-    max-width: 100%;
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-  @media (min-width: 1201px) {
   }
 `;
 
@@ -83,38 +60,11 @@ export const Text1 = styled.p`
     padding-bottom: 1rem;
     line-height: 1.75rem;
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-    font-size: 1.25rem;
-  }
-
-  @media (min-width: 1201px) {
+  @media (min-width: 1025px) {
     font-size: 1.25rem;
   }
 `;
 
 export const Image = styled.img`
   width: 100%;
-
-  @media (max-width: 480px) {
-  }
-
-  @media (min-width: 481px) and (max-width: 600px) {
-  }
-
-  @media (min-width: 601px) and (max-width: 768px) {
-  }
-
-  @media (min-width: 769px) and (max-width: 991px) {
-  }
-
-  @media (min-width: 992px) and (max-width: 1024px) {
-  }
-
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-
-  @media (min-width: 1201px) {
-  }
 `;

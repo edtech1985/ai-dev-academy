@@ -10,11 +10,9 @@ const PilaresContainer = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-
   @media (min-width: 769px) and (max-width: 991px) {
     grid-template-columns: repeat(2, 1fr);
   }
-
   @media (min-width: 992px) {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -51,13 +49,6 @@ const PilarContent = styled.div`
     @media (max-width: 480px) {
       padding-bottom: 1rem;
     }
-    @media (min-width: 481px) and (max-width: 768px) {
-    }
-    @media (min-width: 769px) and (max-width: 1024px) {
-    }
-    @media (min-width: 1025px) and (max-width: 1200px) {
-    }
-
     @media (min-width: 1201px) {
       font-size: 1.25rem;
     }

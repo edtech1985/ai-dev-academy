@@ -9,25 +9,19 @@ const SubmitButton = ({ children, type, ...rest }) => {
   const handleClick = () => {
     setLoading(true);
 
-    // Simulei um atraso de 2 segundos antes de reverter o estado de loading
+    // delay estado de loading
     setTimeout(() => {
       setLoading(false);
       setCompleted(true);
 
-      // Lógica para enviar o formulário após a animação
       if (rest.onClick) {
-        rest.onClick(); // Chama o manipulador de evento onClick passado para o botão
+        rest.onClick(); // Chama onClick do botão
       }
     }, 1500);
   };
 
   return (
-    <Container
-      type={type}
-      {...rest}
-      disabled={loading}
-      onClick={handleClick} // Adicione este manipulador de eventos
-    >
+    <Container type={type} {...rest} disabled={loading} onClick={handleClick}>
       {loading ? (
         <LoadingWrapper>
           <div></div>

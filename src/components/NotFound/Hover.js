@@ -5,7 +5,8 @@ export const StyledCenter = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
 
   @keyframes rotate {
     0% {
@@ -26,7 +27,7 @@ export const StyledCenter = styled.div`
 export const StyledOuterButton = styled.div`
   position: relative;
   margin: 0 0.75rem;
-  background: var(--light-red); //cor2 de fundo luminous botão
+  background: var(--text2);
   height: 4rem;
   width: 15rem;
   border-radius: 2.5rem;
@@ -37,8 +38,8 @@ export const Button = styled.button`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: var(--dark);
-  color: var(--light-red);
+  background: var(--background1);
+  color: var(--text1);
   outline: none;
   border: none;
   font-size: 1rem;
@@ -55,11 +56,9 @@ export const Button = styled.button`
   @media (max-width: 480) {
     font-size: 1rem;
   }
-
   @media (min-width: 481px) and (max-width: 768px) {
     font-size: 0.85rem;
   }
-
   @media (min-width: 769px) and (max-width: 999px) {
     font-size: 0.75rem;
   }
@@ -72,10 +71,10 @@ export const Span = styled.span`
   transform: translate(-50%, -50%);
   height: 100%;
   width: 100%;
-  background: var(--gold); //cor1 de fundo luminous botão
+  background: var(--background2);
   border-radius: 50px;
   transition: all 0.3s ease;
-  filter: blur(5px); // Remover o desfoque inicial
+  filter: blur(5px);
 
   ${StyledOuterButton}:hover & {
     filter: blur(14px);
@@ -86,13 +85,9 @@ export const Span = styled.span`
   }
 
   &:hover {
-    background: linear-gradient(
-      var(--light-red),
-      var(--light-red),
-      var(--light-red)
-    );
+    background: linear-gradient(var(--text3), var(--text3), var(--text3));
     animation: rotate 1s linear infinite;
-    filter: none; // Remover o desfoque ao passar o mouse
+    filter: none;
   }
 `;
 
@@ -103,12 +98,7 @@ export const HoverableSpan = styled(Span)`
 
   ${Button}:hover + & {
     filter: blur(10px);
-    background: linear-gradient(
-      var(--light-red),
-      var(--light-red),
-      var(--light-red)
-    );
-    /* background: linear-gradient(var(--light-red), var(--gold), var(--brown)); */
+    background: linear-gradient(var(--text2), var(--text2), var(--text2));
     animation: rotate 1s linear infinite;
   }
 `;

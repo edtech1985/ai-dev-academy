@@ -40,25 +40,9 @@ export const FormContainer = styled.form`
   justify-content: center;
   align-items: flex-start;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
-  }
-  @media (min-width: 481px) and (max-width: 600px) {
-    flex-direction: column;
-    align-items: center;
-  }
-  @media (min-width: 601px) and (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-  }
-  @media (min-width: 769px) and (max-width: 991px) {
-  }
-  @media (min-width: 992px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-  @media (min-width: 1201px) {
   }
 `;
 
@@ -80,22 +64,8 @@ export const InputGroup = styled.div`
     border: 1px solid var(--primary-color);
     border-radius: 10px;
 
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       width: 50vw;
-    }
-    @media (min-width: 481px) and (max-width: 600px) {
-      width: 50vw;
-    }
-    @media (min-width: 601px) and (max-width: 768px) {
-      width: 50vw;
-    }
-    @media (min-width: 769px) and (max-width: 991px) {
-    }
-    @media (min-width: 992px) and (max-width: 1024px) {
-    }
-    @media (min-width: 1025px) and (max-width: 1200px) {
-    }
-    @media (min-width: 1201px) {
     }
   }
 `;
@@ -115,13 +85,7 @@ export const CtaButton = styled.button`
     background: var(--background5);
   }
 
-  @media (max-width: 480px) {
-    align-self: center;
-  }
-  @media (min-width: 481px) and (max-width: 600px) {
-    align-self: center;
-  }
-  @media (min-width: 601px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     align-self: center;
   }
 `;

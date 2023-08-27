@@ -27,13 +27,6 @@ export const Text1 = styled.p`
   @media (max-width: 480px) {
     padding-bottom: 1rem;
   }
-  @media (min-width: 481px) and (max-width: 768px) {
-  }
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-
   @media (min-width: 1201px) {
     font-size: 1.25rem;
   }
@@ -54,33 +47,23 @@ export const SocialIcons = styled.div`
   }
 `;
 
-export const Icon = styled(FontAwesomeIcon)`
-  /* Estilos gerais para ícones */
-`;
+export const Icon = styled(FontAwesomeIcon)``;
 
 export const LinkedinIcon = styled(Icon).attrs({
   icon: faLinkedin,
-})`
-  /* Estilos específicos para o ícone do LinkedIn */
-`;
+})``;
 
 export const GithubIcon = styled(Icon).attrs({
   icon: faGithub,
-})`
-  /* Estilos específicos para o ícone do GitHub */
-`;
+})``;
 
 export const WhatsappIcon = styled(Icon).attrs({
   icon: faWhatsapp,
-})`
-  /* Estilos específicos para o ícone do WhatsApp */
-`;
+})``;
 
 export const WebsiteIcon = styled(Icon).attrs({
   icon: faGlobe,
-})`
-  /* Estilos específicos para o ícone do WhatsApp */
-`;
+})``;
 
 export const Copyright = styled.p`
   font-size: 0.75rem;

@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dark);
+  background-color: var(--background2);
 `;
 
 export const BackDiv = styled.div`
@@ -16,8 +16,8 @@ export const BackDiv = styled.div`
 `;
 
 export const BackButton = styled.button`
-  background: var(--light-red);
-  color: #f2f2f2;
+  background: var(--background1);
+  color: var(--text1);
   font-weight: 700;
   font-size: 1rem;
   padding: 1rem;
@@ -30,9 +30,9 @@ export const BackButton = styled.button`
   align-items: center;
 
   &:hover {
-    background: var(--dark);
+    background: var(--background2);
     transition: 1s ease-in-out;
-    color: var(--light-red);
+    color: var(--text2);
   }
 `;
 

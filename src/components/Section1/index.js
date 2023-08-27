@@ -1,14 +1,11 @@
 import React from "react";
 import {
   SectionContainer,
-  Image,
   DivTextImg,
   DivLeft,
-  DivRight,
   Text1,
   Subtitle,
 } from "./Section1";
-import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 import ContactButton from "../ContactButton";
 import YouTubeVideo from "./YouTubeVideo";
 
@@ -39,15 +36,7 @@ function Section1() {
             inteligência artificial.
           </Text1>
         </DivLeft>
-        <SnakeCard>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <DivRight>
-            <YouTubeVideo />
-          </DivRight>
-        </SnakeCard>
+        <YouTubeVideo />
       </DivTextImg>
     </SectionContainer>
   );

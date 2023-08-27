@@ -101,10 +101,7 @@ const Form = () => {
                 <p>Email: {email}</p>
                 <p>WhatsApp: {whatsapp}</p>
                 <br />
-
                 <SubmitButton onClick={handleConfirm}>Confirmar</SubmitButton>
-
-                {/* <CtaButton onClick={handleConfirm}>Confirmar </CtaButton>{" "} */}
               </DivCenterModal>
             </ModalContent>
           </Modal>

@@ -45,23 +45,12 @@ export const DivText = styled.div`
   @media (max-width: 480px) {
     padding: 0.5rem;
   }
-
   @media (min-width: 481px) and (max-width: 600px) {
     padding: 0.5rem;
   }
-  @media (min-width: 601px) and (max-width: 768px) {
+  @media (min-width: 601px) and (max-width: 1200px) {
     padding: 1rem;
   }
-  @media (min-width: 769px) and (max-width: 900px) {
-    padding: 1rem;
-  }
-  @media (min-width: 901px) and (max-width: 1024px) {
-    padding: 1rem;
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-    padding: 1rem;
-  }
-
   @media (min-width: 1201px) {
     padding: 0.5rem;
   }
@@ -70,17 +59,7 @@ export const DivText = styled.div`
 export const DivTextLeft = styled.div`
   width: 60%;
 
-  @media (max-width: 481px) {
-    display: none;
-  }
-  @media (min-width: 481px) and (max-width: 600px) {
-    display: none;
-  }
-
-  @media (min-width: 601px) and (max-width: 768px) {
-    display: none;
-  }
-  @media (min-width: 769px) and (max-width: 900px) {
+  @media (max-width: 900px) {
     display: none;
   }
   @media (min-width: 901px) and (max-width: 1024px) {
@@ -88,7 +67,6 @@ export const DivTextLeft = styled.div`
   }
   @media (min-width: 1025px) and (max-width: 1200px) {
   }
-
   @media (min-width: 1201px) {
     width: 30%;
   }
@@ -97,40 +75,20 @@ export const DivTextLeft = styled.div`
 export const DivTextRight = styled.div`
   max-width: 40%;
 
-  @media (max-width: 481px) {
+  @media (max-width: 600px) {
     max-width: 100%;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
   }
-  @media (min-width: 481px) and (max-width: 600px) {
-    max-width: 100%;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  @media (min-width: 601px) and (max-width: 768px) {
+  @media (min-width: 601px) and (max-width: 900px) {
     max-width: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  @media (min-width: 769px) and (max-width: 900px) {
-    max-width: 100%;
+  @media (min-width: 901px) and (max-width: 1200px) {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  @media (min-width: 901px) and (max-width: 991px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  @media (min-width: 992px) and (max-width: 1024px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   @media (min-width: 1201px) {
     width: 100vw;
     padding-left: 1rem;
@@ -151,17 +109,12 @@ export const Title = styled.h1`
     font-size: 1.5rem;
     min-height: 11vh;
   }
-
-  @media (min-width: 769px) and (max-width: 900px) {
-    min-height: 14vh;
-  }
-  @media (min-width: 901px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     min-height: 14vh;
   }
   @media (min-width: 1025px) and (max-width: 1200px) {
     min-height: 12vh;
   }
-
   @media (min-width: 1201px) {
     min-height: 5vh;
   }
@@ -169,7 +122,6 @@ export const Title = styled.h1`
 
 export const Text1 = styled.p`
   font-size: 1rem;
-  //new
 
   @media (max-width: 480px) {
     font-size: 0.9rem;
@@ -180,11 +132,7 @@ export const Text1 = styled.p`
     padding: 0.25rem;
     background-color: rgba(1, 21, 38, 0.75);
   }
-
-  @media (min-width: 601px) and (max-width: 768px) {
-    background-color: rgba(1, 21, 38, 0.75);
-  }
-  @media (min-width: 769px) and (max-width: 900px) {
+  @media (min-width: 601px) and (max-width: 900px) {
     background-color: rgba(1, 21, 38, 0.75);
   }
   @media (min-width: 901px) and (max-width: 1024px) {
@@ -193,7 +141,6 @@ export const Text1 = styled.p`
     padding-left: 2rem;
     padding-right: 2rem;
   }
-
   @media (min-width: 1201px) {
     padding-left: 1rem;
     padding-right: 1rem;

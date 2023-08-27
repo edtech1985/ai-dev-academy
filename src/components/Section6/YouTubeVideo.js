@@ -18,8 +18,8 @@ const YouTubeVideo = () => {
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/vG2pmoQK-8s"
-        title="Sobre a AI Dev Academy"
+        src="https://www.youtube.com/embed/3-CWvQwlj10"
+        title="Entenda como funcionam nossos 4 pilares para um resultado rápido e eficaz"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen

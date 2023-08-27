@@ -28,13 +28,11 @@ const Header = () => {
 
   const handleNavItemClick = (section) => {
     setIsOpen(false);
-
-    // Role suavemente até a seção correspondente
     scroller.scrollTo(section, {
-      duration: 1500, // Duração da animação de scroll suave em milissegundos
+      duration: 1500, // Duração da animação de scroll
       delay: 10,
-      smooth: "easeInOutQuart", // Efeito de aceleração suave
-      offset: -50, // Ajuste o valor do offset conforme necessário
+      smooth: "easeInOutQuart",
+      offset: -50, // offset para alinhar seção
     });
   };
 

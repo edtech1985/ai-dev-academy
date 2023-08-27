@@ -119,35 +119,47 @@ export const NavItem = styled.li`
 `;
 
 export const StyledNavItem = styled(NavLink)`
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #f2f2f2;
   font-weight: bold;
   font-size: 1rem;
   padding-right: 1.5rem;
+  position: relative;
 
   &:hover {
     color: var(--primary-color);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: calc(75%);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--primary-color);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: center;
+  }
+
+  &:hover::after {
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: center;
   }
 
   @media (max-width: 480px) {
     font-size: 1.75rem;
     margin-bottom: 1rem;
   }
-
   @media (min-width: 481px) and (max-width: 600px) {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-
   @media (min-width: 601px) and (max-width: 768px) {
     padding-right: 1.25rem;
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-  @media (min-width: 1201px) {
   }
 `;

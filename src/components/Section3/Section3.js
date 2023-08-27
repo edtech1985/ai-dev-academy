@@ -12,13 +12,7 @@ export const DivTextImg = styled.div`
   padding: 1rem;
   align-items: center;
 
-  @media (max-width: 480px) {
-    display: block;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     display: block;
     padding-top: 0;
     padding-bottom: 0;
@@ -28,21 +22,8 @@ export const DivLeft = styled.div`
   max-width: 50%;
   padding: 1rem;
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     max-width: 100%;
-  }
-  @media (min-width: 481px) and (max-width: 600px) {
-    max-width: 100%;
-  }
-  @media (min-width: 601px) and (max-width: 768px) {
-    max-width: 100%;
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-  @media (min-width: 1201px) {
   }
 `;
 
@@ -55,19 +36,12 @@ export const TitleH3 = styled.h1`
   font-size: 1.25rem;
   padding: 1rem;
 
-  @media (max-width: 480px) {
-  }
   @media (min-width: 481px) and (max-width: 600px) {
     font-size: 1.5rem;
   }
   @media (min-width: 601px) and (max-width: 768px) {
     font-size: 1.75rem;
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-
   @media (min-width: 1201px) {
     font-size: 1.25rem;
   }
@@ -85,11 +59,6 @@ export const Text1 = styled.p`
   @media (min-width: 601px) and (max-width: 768px) {
     font-size: 1.5rem;
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-
   @media (min-width: 1201px) {
     font-size: 1.25rem;
   }
@@ -99,15 +68,6 @@ export const DivRight = styled.div`
   max-width: 100%;
   padding-left: 0rem;
   padding-right: 0rem;
-
-  @media (min-width: 481px) and (max-width: 768px) {
-  }
-  @media (min-width: 769px) and (max-width: 1024px) {
-  }
-  @media (min-width: 1025px) and (max-width: 1200px) {
-  }
-  @media (min-width: 1201px) {
-  }
 `;
 
 export const Image = styled.img`

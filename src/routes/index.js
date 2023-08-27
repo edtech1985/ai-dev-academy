@@ -13,13 +13,15 @@ import Section6 from "../components/Section6";
 import Section7 from "../components/Section7";
 import Section8 from "../components/Section8";
 import Form from "../components/Form";
+import NotFound from "../components/NotFound";
 
 export default function AppRouter() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
