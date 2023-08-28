@@ -8,12 +8,10 @@ import {
   Icon,
   StackContent,
 } from "./Section7";
-import ContactButton from "../ContactButton";
 import {
   CloseButton,
   ModalContent,
   ModalOverlay,
-  ModalSubTitle,
   ModalText,
   ModalTitle,
 } from "./Modal";
@@ -69,12 +67,6 @@ const Section7 = () => {
           )}
         </StacksContainer>
       </DivTextImg>
-      <ContactButton
-        link="#cta-form"
-        text="Quero começar agora!"
-        alt="Começar Agora"
-        aria-label="Quero Começar Agora!"
-      />
     </SectionContainer>
   );
 };

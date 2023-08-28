@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Página Inicial -->
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://ai-dev-academy.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Páginas Internas -->
   <url>
-    <loc>https://www.example.com/sobre</loc>
+    <loc>https://ai-dev-academy.vercel.app/sobre</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/servicos</loc>
+    <loc>https://ai-dev-academy.vercel.app/agende</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/contato</loc>
+    <loc>https://ai-dev-academy.vercel.app/contato</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
