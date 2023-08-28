@@ -64,7 +64,7 @@ export const StacksContainer = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     grid-template-columns: 1fr;
   }
   @media (min-width: 769px) and (max-width: 991px) {
@@ -82,6 +82,7 @@ export const StackCard = styled.div`
   border-radius: 10px;
   border: 2px solid var(--text1);
   padding: 1rem;
+  min-height: 25vh;
 
   cursor: pointer;
   transition: background-color 1s ease-in-out, 1s ease-out;
