@@ -97,6 +97,8 @@ Para organizar a página utilizei o sistema de rotas a partir do componente prin
 
 As imagens estão na pasta assets.
 
+Animações feitas com AOS.
+
 Na pasta pública estão os logos responsivos, bem como as configurações das tags SEO html. Há também um arquivo sitemap.xml para indexação.
 
 Cada seção é representada por um componente, como mostro abaixo:

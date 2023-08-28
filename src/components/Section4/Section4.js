@@ -82,7 +82,7 @@ export const BreakPointDivUp = styled.div`
 `;
 
 export const BreakPointDivDown = styled.div`
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;
