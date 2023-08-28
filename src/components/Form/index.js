@@ -26,8 +26,28 @@ const Form = () => {
 
   const { name, email, whatsapp } = formData;
 
+  const validateName = (name) => name.length >= 3;
+  const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const validatePhone = (phone) => /^\d{11}$/.test(phone);
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!validateName(name)) {
+      toast.error("O nome deve ter pelo menos 3 caracteres.");
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      toast.error("Digite um email válido.");
+      return;
+    }
+
+    if (!validatePhone(whatsapp)) {
+      toast.error("Digite um telefone válido.");
+      return;
+    }
+
     setModalOpen(true);
   };
 

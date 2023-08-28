@@ -1,36 +1,80 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   SectionContainer,
   DivTextImg,
-  DivLeft,
-  DivRight,
-  Text1,
-  TitleH3,
+  Subtitle,
+  StacksContainer,
+  StackCard,
+  Icon,
+  StackContent,
 } from "./Section7";
-import YouTubeVideo from "./YouTubeVideo";
+import ContactButton from "../ContactButton";
+import {
+  CloseButton,
+  ModalContent,
+  ModalOverlay,
+  ModalSubTitle,
+  ModalText,
+  ModalTitle,
+} from "./Modal";
+import stacksData from "./stacks.json";
 
 const Section7 = () => {
+  const [selectedStack, setSelectedStack] = useState(null);
+
+  const openModal = (stack) => {
+    setSelectedStack(stack);
+  };
+
+  const closeModal = () => {
+    setSelectedStack(null);
+  };
+
+  const handleOutsideClick = (event) => {
+    if (event.target === event.currentTarget) {
+      closeModal();
+    }
+  };
+
   return (
-    <SectionContainer id="section7">
+    <SectionContainer id="stacks">
+      <Subtitle>Escolha o caminho a trilhar</Subtitle>
       <DivTextImg>
-        <DivRight>
-          <YouTubeVideo />
-        </DivRight>
-        <DivLeft>
-          <TitleH3>SECTION 7</TitleH3>
-          <Text1>
-            Com a sua inscrição confirmada, é o momento de selecionar o mentor
-            que irá orientar você em sua jornada em direção à maestria. Cada
-            aula é uma experiência individualizada e o Professor escolhido será
-            seu guia dedicado ao longo de todo o percurso educacional.
-          </Text1>
-          <Text1>
-            <br></br>
-            Ah, mas caso você não se adapte ao professor, não tem problemas,
-            basta solicitar a troca, ok? Sua satisfação é nossa prioridade!
-          </Text1>
-        </DivLeft>
+        <StacksContainer>
+          {stacksData.map((stack, index) => (
+            <StackCard key={index} onClick={() => openModal(stack)}>
+              <Icon className={stack.icone} aria-hidden="true" />
+              <StackContent>
+                <h3>{stack.titulo}</h3>
+                <p>{stack.descricao}</p>
+              </StackContent>
+            </StackCard>
+          ))}
+
+          {selectedStack && (
+            <ModalOverlay onClick={handleOutsideClick}>
+              <ModalContent>
+                <CloseButton onClick={closeModal}>Fechar</CloseButton>
+                <ModalTitle>{selectedStack.titulo}</ModalTitle>
+                <br />
+                <ModalText>
+                  <ul>
+                    {selectedStack.itens.map((stack, index) => (
+                      <li key={index}>{stack}</li>
+                    ))}
+                  </ul>
+                </ModalText>
+              </ModalContent>
+            </ModalOverlay>
+          )}
+        </StacksContainer>
       </DivTextImg>
+      <ContactButton
+        link="#cta-form"
+        text="Quero começar agora!"
+        alt="Começar Agora"
+        aria-label="Quero Começar Agora!"
+      />
     </SectionContainer>
   );
 };

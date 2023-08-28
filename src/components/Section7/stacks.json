@@ -1,0 +1,57 @@
+[
+    {
+        "titulo": "Frontend",
+        "descricao": "Crie interfaces de usuário incríveis utilizando tecnologias como HTML, CSS e JavaScript.",
+        "icone": "fa fa-desktop",
+        "itens": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Vue.js",
+            "Angular",
+            "SASS",
+            "Webpack",
+            "TypeScript",
+            "Bootstrap",
+            "Material-UI"
+        ]
+    },
+    {
+        "titulo": "Backend",
+        "descricao": "Desenvolva a lógica por trás das aplicações utilizando tecnologias como Node.js e bancos de dados.",
+        "icone": "fa fa-server",
+        "itens": [
+            "Node.js",
+            "Express.js",
+            "REST API",
+            "GraphQL",
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL",
+            "Firebase",
+            "Django",
+            "Ruby on Rails",
+            "Entre outras"
+        ]
+    },
+    {
+        "titulo": "Fullstack",
+        "descricao": "Domine tanto o frontend quanto o backend para criar aplicações completas e funcionais.",
+        "icone": "fa fa-code",
+        "itens": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "SQL",
+            "NoSQL",
+            "SASS",
+            "Webpack",
+            "Node.js",
+            "Express.js",
+            "REST API",
+            "Entre outras"
+        ]
+    }
+]

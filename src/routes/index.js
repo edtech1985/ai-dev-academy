@@ -11,7 +11,6 @@ import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import Section7 from "../components/Section7";
-import Section8 from "../components/Section8";
 import Form from "../components/Form";
 import NotFound from "../components/NotFound";
 
@@ -39,7 +38,6 @@ function Home() {
       <Section5 />
       <Section6 />
       <Section7 />
-      <Section8 />
       <Form />
     </>
   );

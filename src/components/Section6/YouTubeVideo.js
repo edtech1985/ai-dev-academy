@@ -9,7 +9,10 @@ const DivFrame = styled.div`
   width: 100%;
   height: auto;
   overflow: hidden;
-  border-radius: 15px;
+
+  iframe {
+    border-radius: 15px;
+  }
 `;
 
 const YouTubeVideo = () => {
@@ -18,7 +21,7 @@ const YouTubeVideo = () => {
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/3-CWvQwlj10"
+        src="https://www.youtube.com/embed/T-A-cSpqYQE"
         title="Entenda como funcionam nossos 4 pilares para um resultado rápido e eficaz"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

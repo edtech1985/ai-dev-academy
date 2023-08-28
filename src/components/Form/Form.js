@@ -130,4 +130,9 @@ export const DivCenterModal = styled.div`
   justify-content: center;
   align-items: center;
   padding: 3rem;
+
+  p {
+    font-size: 1.5rem;
+    color: var(--text3);
+  }
 `;

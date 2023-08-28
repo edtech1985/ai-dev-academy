@@ -9,7 +9,9 @@ const DivFrame = styled.div`
   width: 100%;
   height: auto;
   overflow: hidden;
-  border-radius: 15px;
+  iframe {
+    border-radius: 15px;
+  }
 `;
 
 const YouTubeVideo = () => {
