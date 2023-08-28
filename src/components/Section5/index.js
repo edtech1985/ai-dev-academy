@@ -18,16 +18,18 @@ const Section5 = () => {
     <SectionContainer id="primeira-aula">
       <DivTextImg>
         <DivLeft>
-          <TitleH3>Inicie sua primeira aula.</TitleH3>
+          <div className="animation" data-aos="fade-right">
+            <TitleH3>Inicie sua primeira aula.</TitleH3>
 
-          <Text1>
-            Tudo pronto! Agora, resta escolher uma stack, embarcar na sua
-            primeira aula e dar início a uma verdadeira jornada de aprendizado
-            academia que adota a abordagem mais inovadora do mercado! As sessões
-            ocorrem conforme a disponibilidade do aluno. Você é quem determina
-            os dias e horários que melhor se encaixam na sua rotina. Incrível,
-            não é mesmo?
-          </Text1>
+            <Text1>
+              Tudo pronto! Agora, resta escolher uma stack, embarcar na sua
+              primeira aula e dar início a uma verdadeira jornada de aprendizado
+              academia que adota a abordagem mais inovadora do mercado! As
+              sessões ocorrem conforme a disponibilidade do aluno. Você é quem
+              determina os dias e horários que melhor se encaixam na sua rotina.
+              Incrível, não é mesmo?
+            </Text1>
+          </div>
         </DivLeft>
 
         <SnakeCard>
@@ -37,7 +39,13 @@ const Section5 = () => {
           <span></span>
 
           <DivRight>
-            <Image src={ImgStudents} alt="Estudantes" aria-label="Estudantes" />
+            <div className="animation" data-aos="fade-left">
+              <Image
+                src={ImgStudents}
+                alt="Estudantes"
+                aria-label="Estudantes"
+              />
+            </div>
           </DivRight>
         </SnakeCard>
       </DivTextImg>

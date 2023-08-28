@@ -14,7 +14,9 @@ const Section6 = () => {
         eficaz
       </Subtitle>
       <DivTextImg>
-        <Pilares />
+        <div className="animation" data-aos="fade-down">
+          <Pilares />
+        </div>
       </DivTextImg>
       <ContactButton
         link="#cta-form"

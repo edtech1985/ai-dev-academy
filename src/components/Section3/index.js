@@ -16,13 +16,15 @@ const Section3 = () => {
     <SectionContainer id="matricula">
       <DivTextImg>
         <DivLeft>
-          <TitleH3>Faça sua matrícula.</TitleH3>
+          <div className="animation" data-aos="fade-right">
+            <TitleH3>Faça sua matrícula.</TitleH3>
 
-          <Text1>
-            Após preencher o formulário com seus dados e realizar a aula
-            experimental, basta realizar sua matrícula e o pagamento através de
-            um cartão de crédito.
-          </Text1>
+            <Text1>
+              Após preencher o formulário com seus dados e realizar a aula
+              experimental, basta realizar sua matrícula e o pagamento através
+              de um cartão de crédito.
+            </Text1>
+          </div>
         </DivLeft>
 
         <SnakeCard>
@@ -32,7 +34,9 @@ const Section3 = () => {
           <span></span>
 
           <DivRight>
-            <Image src={ImgFingers} alt="Dedos Tocando" />
+            <div className="animation" data-aos="fade-left">
+              <Image src={ImgFingers} alt="Dedos Tocando" />
+            </div>
           </DivRight>
         </SnakeCard>
       </DivTextImg>

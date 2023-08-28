@@ -40,13 +40,15 @@ const Section7 = () => {
       <DivTextImg>
         <StacksContainer>
           {stacksData.map((stack, index) => (
-            <StackCard key={index} onClick={() => openModal(stack)}>
-              <Icon className={stack.icone} aria-hidden="true" />
-              <StackContent>
-                <h3>{stack.titulo}</h3>
-                <p>{stack.descricao}</p>
-              </StackContent>
-            </StackCard>
+            <div className="animation" data-aos="fade-up">
+              <StackCard key={index} onClick={() => openModal(stack)}>
+                <Icon className={stack.icone} aria-hidden="true" />
+                <StackContent>
+                  <h3>{stack.titulo}</h3>
+                  <p>{stack.descricao}</p>
+                </StackContent>
+              </StackCard>
+            </div>
           ))}
 
           {selectedStack && (
