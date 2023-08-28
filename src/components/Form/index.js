@@ -70,65 +70,64 @@ const Form = () => {
 
   return (
     <FormSection id="cta-form">
-      <div className="animation" data-aos="fade-in">
-        <FormBox>
-          <FormTitle>Agende uma Aula Experimental</FormTitle>
-          <FormSubtitle>
-            Conheça nossa Metodologia na Prática sem Custos
-          </FormSubtitle>
-          <FormContainer onSubmit={handleSubmit}>
-            <InputGroup>
-              <label htmlFor="name">Nome:</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={name}
-                placeholder="Digite seu nome..."
-                onChange={handleInputChange}
-              />
-            </InputGroup>
-            <InputGroup>
-              <label htmlFor="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={email}
-                placeholder="seuemail@edtech1985.com.br"
-                onChange={handleInputChange}
-              />
-            </InputGroup>
-            <InputGroup>
-              <label htmlFor="whatsapp">WhatsApp:</label>
-              <input
-                type="tel"
-                id="whatsapp"
-                name="whatsapp"
-                value={whatsapp}
-                placeholder="(51)99999-9999"
-                onChange={handleInputChange}
-              />
-            </InputGroup>{" "}
-            <CtaButton type="submit">Começar Agora</CtaButton>
-          </FormContainer>
-          {isModalOpen && (
-            <Modal>
-              <ModalContent>
-                <DivCenterModal>
-                  <p>Confirme seus dados antes de prosseguir:</p>
-                  <br />
-                  <p>Nome: {name}</p>
-                  <p>Email: {email}</p>
-                  <p>WhatsApp: {whatsapp}</p>
-                  <br />
-                  <SubmitButton onClick={handleConfirm}>Confirmar</SubmitButton>
-                </DivCenterModal>
-              </ModalContent>
-            </Modal>
-          )}
-        </FormBox>
-      </div>
+      <FormBox>
+        <FormTitle>Agende uma Aula Experimental</FormTitle>
+        <FormSubtitle>
+          Conheça nossa Metodologia na Prática sem Custos
+        </FormSubtitle>
+        <FormContainer onSubmit={handleSubmit}>
+          <InputGroup>
+            <label htmlFor="name">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={name}
+              placeholder="Digite seu nome..."
+              onChange={handleInputChange}
+            />
+          </InputGroup>
+          <InputGroup>
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={email}
+              placeholder="seuemail@edtech1985.com.br"
+              onChange={handleInputChange}
+            />
+          </InputGroup>
+          <InputGroup>
+            <label htmlFor="whatsapp">WhatsApp:</label>
+            <input
+              type="tel"
+              id="whatsapp"
+              name="whatsapp"
+              value={whatsapp}
+              placeholder="(51)99999-9999"
+              onChange={handleInputChange}
+            />
+          </InputGroup>{" "}
+          <CtaButton type="submit">Começar Agora</CtaButton>
+        </FormContainer>
+        {isModalOpen && (
+          <Modal>
+            <ModalContent>
+              <DivCenterModal>
+                <p>Confirme seus dados antes de prosseguir:</p>
+                <br />
+                <p>Nome: {name}</p>
+                <p>Email: {email}</p>
+                <p>WhatsApp: {whatsapp}</p>
+                <br />
+                <SubmitButton onClick={handleConfirm}>Confirmar</SubmitButton>
+              </DivCenterModal>
+            </ModalContent>
+          </Modal>
+        )}
+      </FormBox>
+
       <ToastContainer />
     </FormSection>
   );
