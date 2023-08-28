@@ -37,7 +37,7 @@ const Section4 = () => {
         </BreakPointDivUp>
 
         <DivLeft>
-          <div className="animation" data-aos="fade-left">
+          <div className="animation" data-aos="fade-right">
             <TitleH3>Escolha o seu professor.</TitleH3>
             <Text1>
               Com a sua inscrição confirmada, é o momento de selecionar o mentor
@@ -60,11 +60,13 @@ const Section4 = () => {
             <span></span>
 
             <DivRight>
-              <Image
-                src={ImgTeacher}
-                alt="Professor AI"
-                aria-label="Professor AI"
-              />
+              <div className="animation" data-aos="fade-right">
+                <Image
+                  src={ImgTeacher}
+                  alt="Professor AI"
+                  aria-label="Professor AI"
+                />
+              </div>
             </DivRight>
           </SnakeCard>
         </BreakPointDivDown>

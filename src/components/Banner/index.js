@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   SectionContainer,
   Title,
@@ -11,7 +11,14 @@ import {
 
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
+
   const [typeEffect] = useTypewriter({
     words: [
       "Bem-vindo à AI Dev Academy - O Futuro da Educação!",

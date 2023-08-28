@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 export const HeaderContainer = styled.header`
   background-color: var(--background2);
   display: flex;
-  padding: 0.5rem;
   text-align: center;
   position: fixed;
+  padding: 0.5rem 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -26,6 +26,7 @@ export const HeaderContainer = styled.header`
 export const Logo = styled.img`
   min-width: 48px;
   min-height: 48px;
+  padding: 1rem;
   height: 100%;
   max-height: 2rem;
   transition: filter 1s ease-in-out, transform 1s ease-in-out;

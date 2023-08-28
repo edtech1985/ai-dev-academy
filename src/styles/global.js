@@ -5,8 +5,10 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace, sans-serif;
-  }
+    max-width: 100vw;
 
+  }
+  
   header {
     background: var(--background2);
   }

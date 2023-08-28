@@ -14,14 +14,7 @@ import Section7 from "../components/Section7";
 import Form from "../components/Form";
 import NotFound from "../components/NotFound";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 export default function AppRouter() {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
-
   return (
     <Router>
       <Header />

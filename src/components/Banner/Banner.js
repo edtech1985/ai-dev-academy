@@ -9,6 +9,8 @@ export const SectionContainer = styled.section`
   padding-top: 4rem;
 
   @media (max-width: 480px) {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
   }
   @media (min-width: 481px) and (max-width: 600px) {
   }
@@ -103,7 +105,7 @@ export const Title = styled.h1`
 
   @media (max-width: 480px) {
     font-size: 1.25rem;
-    min-height: 13vh;
+    min-height: 15vh;
   }
   @media (min-width: 481px) and (max-width: 768px) {
     font-size: 1.5rem;
