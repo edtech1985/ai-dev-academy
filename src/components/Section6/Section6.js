@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SectionContainer = styled.section`
-  padding: 1rem 0;
+  padding: 1rem;
   text-align: center;
   background-color: var(--background1);
   max-width: 100vw;
@@ -9,7 +9,7 @@ export const SectionContainer = styled.section`
 
 export const DivTextImg = styled.div`
   display: flex;
-  padding: 1rem;
+  padding: 1rem 0;
   align-items: center;
 
   @media (max-width: 768px) {

@@ -13,14 +13,7 @@ import {
 import ImgTeacher from "../../assets/teacher.jpg";
 import { SnakeCard } from "../SnakeCard/SnakeAnimation";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 const Section4 = () => {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
-
   return (
     <SectionContainer id="section4">
       <DivTextImg>
