@@ -44,7 +44,7 @@ export const BurgerMenuButton = styled.button`
     display: block;
     position: absolute;
     top: 1rem;
-    right: 3rem;
+    right: 2rem;
     z-index: 999;
     width: 2rem;
     height: 2rem;
